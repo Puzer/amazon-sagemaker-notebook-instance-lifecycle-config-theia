@@ -2,6 +2,7 @@
   "private": true,
   "version": "1.10.0",
   "theia": {
+    "target": "browser",
     "frontend": {
       "config": {
         "applicationName": "Theia IDE",
@@ -56,7 +57,7 @@
   "scripts": {
     "prepare": "yarn run clean && yarn build && yarn run download:plugins",
     "clean": "theia clean",
-    "build": "theia build --mode development",
+    "build": "theia build",
     "start": "theia start --plugins=~/theia/plugins",
     "download:plugins": "theia download:plugins"
   },
@@ -69,7 +70,7 @@
     "vscode-builtin-log": "https://open-vsx.org/api/vscode/log/1.44.2/file/vscode.log-1.44.2.vsix",
     "vscode-builtin-markdown": "https://open-vsx.org/api/vscode/markdown/1.44.2/file/vscode.markdown-1.44.2.vsix",
     "vscode-builtin-markdown-language-features": "https://open-vsx.org/api/vscode/markdown-language-features/1.39.1/file/vscode.markdown-language-features-1.39.1.vsix",
-    "vscode-builtin-python": "https://open-vsx.org/api/vscode/python/1.44.2/file/vscode.python-1.44.2.vsix",
+    "vscode-builtin-python": "https://open-vsx.org/api/vscode/python/1.53.0/file/vscode.python-1.53.0.vsix",
     "vscode-builtin-shellscript": "https://open-vsx.org/api/vscode/shellscript/1.44.2/file/vscode.shellscript-1.44.2.vsix",
     "vscode-builtin-theme-abyss": "https://open-vsx.org/api/vscode/theme-abyss/1.44.2/file/vscode.theme-abyss-1.44.2.vsix",
     "vscode-builtin-theme-defaults": "https://open-vsx.org/api/vscode/theme-defaults/1.44.2/file/vscode.theme-defaults-1.44.2.vsix",
@@ -80,6 +81,7 @@
     "vscode-builtin-theme-red": "https://open-vsx.org/api/vscode/theme-red/1.44.2/file/vscode.theme-red-1.44.2.vsix",
     "vscode-builtin-theme-solarized-dark": "https://open-vsx.org/api/vscode/theme-solarized-dark/1.44.2/file/vscode.theme-solarized-dark-1.44.2.vsix",
     "vscode-builtin-theme-tomorrow-night-blue": "https://open-vsx.org/api/vscode/theme-tomorrow-night-blue/1.44.2/file/vscode.theme-tomorrow-night-blue-1.44.2.vsix",
-    "vscode-builtin-icon-theme-seti": "https://open-vsx.org/api/vscode/vscode-theme-seti/1.44.2/file/vscode.vscode-theme-seti-1.44.2.vsix"
+    "vscode-builtin-icon-theme-seti": "https://open-vsx.org/api/vscode/vscode-theme-seti/1.44.2/file/vscode.vscode-theme-seti-1.44.2.vsix",
+    "ms-python": "https://open-vsx.org/api/ms-python/python/2020.10.332292344/file/ms-python.python-2020.10.332292344.vsix"
   }
 }
