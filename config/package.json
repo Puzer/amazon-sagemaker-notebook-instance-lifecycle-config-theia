@@ -58,7 +58,7 @@
     "prepare": "yarn run clean && yarn build && yarn run download:plugins",
     "clean": "theia clean",
     "build": "theia build",
-    "start": "theia start --plugins=~/theia/plugins",
+    "start": "theia start --plugins=local-dir:/home/ec2-user/theia/plugins",
     "download:plugins": "theia download:plugins"
   },
   "theiaPluginsDir": "plugins",
@@ -82,6 +82,6 @@
     "vscode-builtin-theme-solarized-dark": "https://open-vsx.org/api/vscode/theme-solarized-dark/1.44.2/file/vscode.theme-solarized-dark-1.44.2.vsix",
     "vscode-builtin-theme-tomorrow-night-blue": "https://open-vsx.org/api/vscode/theme-tomorrow-night-blue/1.44.2/file/vscode.theme-tomorrow-night-blue-1.44.2.vsix",
     "vscode-builtin-icon-theme-seti": "https://open-vsx.org/api/vscode/vscode-theme-seti/1.44.2/file/vscode.vscode-theme-seti-1.44.2.vsix",
-    "ms-python": "https://open-vsx.org/api/ms-python/python/2020.10.332292344/file/ms-python.python-2020.10.332292344.vsix"
+    "vscode-python": "https://open-vsx.org/api/ms-python/python/2020.10.332292344/file/ms-python.python-2020.10.332292344.vsix"
   }
 }
